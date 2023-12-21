@@ -12,3 +12,51 @@
     padding: 10px;
 
 }
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+
+}
+
+.todo-app h2{
+    color:rgb(46, 65, 8);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.todo-app h2 img{
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: lightgray;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+.Addbtn{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: lightcoral;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
