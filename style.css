@@ -55,7 +55,7 @@ input{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: linear-gradient(to left,red,yellow);
+    background: linear-gradient(to right,red,yellow);
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
@@ -91,4 +91,22 @@ ul li.checked{
 
 ul li.checked::before{
     background-image: url(./images/check.jpg);
+ 
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top:5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: gray;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background: lightgray ;
 }
